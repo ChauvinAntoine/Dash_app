@@ -1,0 +1,301 @@
+﻿#Customs 
+
+body {
+ background-color:Lavender;
+ }
+ 
+/* banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#logo {
+	height: 15rem;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+}
+
+#logo_ds {
+	height: 9rem;
+	position: absolute;
+	top: 5px;
+	left: 200px;
+}
+
+#meteo{
+	height: 14rem;
+	width: 25rem;
+	position: absolute;
+	top: 10px;
+	right: 200px;
+}
+#img_meteo { 
+  height: 7rem;
+  position: absolute;
+  top: 10px;
+  right: 350px;
+}
+
+#txt_meteo {
+	font-family: "Playfair Display", serif;
+	font-size: 1.8rem;
+	color: #191970;
+	position: absolute;
+	top: 10px;
+	left: -90px;
+	text-align: left;
+}
+
+#txt_date {
+	font-family: "Playfair Display", serif;
+	font-size: 1.8rem;
+	color: #191970;
+	position: absolute;
+	top: 850px;
+	left: 50px;
+	text-align: left;
+}
+
+#title {
+	font-family: "Playfair Display", serif;
+	font-weight: normal;
+	font-size: 3rem;
+	color: #191970;
+	text-align: center;
+}
+
+#titre {
+	text-align: center;
+}
+
+#update_the_weather { 
+  position: absolute;
+  top: 40px;
+  left: 1650px;
+}
+
+#button_take_picture { 
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+#button_show_picture { 
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+#button_analyse_picture { 
+  position: absolute;
+  top: 180px;
+  left: 750px;
+}
+
+#button_dept { 
+  position: absolute;
+  top: 850px;
+  left: 350px;
+}
+
+#button_reco { 
+  position: absolute;
+  top: 180px;
+  left: 1200px;
+}
+
+#image {
+	height: 35rem;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+}
+
+#tableau {
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	table-layout: fixed;
+	width: 500px;
+}
+
+table {
+	table-layout: auto;
+	width: 150px;
+	width: 150px;
+}
+
+th {
+	font-family: monospace;
+	width: 50%;
+	padding: 5px;
+	color: white;
+}
+td {
+	font-family: sans-serif;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+}
+
+#image_reco_1 { 
+  height: 15rem;
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+
+#image_reco_2 { 
+  height: 15rem;
+  float: center;
+  position: absolute;
+  top: 450px;
+  left: 900px;
+}
+
+#image_reco_3 { 
+  height: 8rem;
+  float: center;
+  position: absolute;
+  top: 650px;
+  left: 900px;
+}
+#price_1 { 
+  height: 15rem;
+  position: absolute;
+  top: 300px;
+  left: 1600px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #191970;
+  z-index:2;
+}
+#price_2 { 
+  height: 15rem;
+  position: absolute;
+  top: 500px;
+  left: 1600px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #191970;
+  z-index:2;
+}
+#price_3 { 
+  height: 15rem;
+  position: absolute;
+  top: 680px;
+  left: 1600px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #191970;
+  z-index:2;
+}
+#image_label_1 {
+  height: 11rem;
+  position: absolute;
+  z-index:1;
+  top: 260px;
+  left: 1560px;
+}
+#image_label_2 {
+  height: 11rem;
+  position: absolute;
+  z-index:1;
+  top: 460px;
+  left: 1560px;
+}
+#image_label_3 {
+  height: 11rem;
+  position: absolute;
+  z-index:1;
+  top: 640px;
+  left: 1560px;
+}
+#image_panier {
+  height: 7rem;
+  position: absolute;
+  top: 780px;
+  left: 1500px;
+}
+#discount { 
+  position: absolute;
+  top: 800px;
+  left: 1100px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+.total { 
+  position: absolute;
+  top: 800px;
+  left: 1600px;
+  font-size: 2rem;
+  color: #191970;
+  text-decoration: line-through;
+}
+.total2 { 
+  position: absolute;
+  top: 800px;
+  left: 1680px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+#image_smiley { 
+  height: 5rem;
+  position: absolute;
+  top: 350px;
+  left: 1300px;
+}
+
+.center > img { 
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  top: 10; /*Centering the image*/
+  bottom: 10; /*Centering the image*/
+  left: 0; /*Centering the image*/
+  right: 0; /*Centering the image*/
+  margin: auto;
+}
+
+#paragraph { 
+  position: absolute;
+  top: 425px;
+  left: 1200px;
+}
+
+#introreco { 
+  position: absolute;
+  top: 180px;
+  left: 1200px;
+  font-weight: bold;
+}
+
+#input_dept_intro {
+  position: absolute;
+  top: 800px;
+  left: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #191970;
+}
+
+#out_department {
+  position: absolute;
+  top: 850px;
+  left: 500px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #FA642D;
+}
+
+#input_box {
+  position: absolute;
+  top: 850px;
+  left: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #191970;
+  width: 30rem;
+}

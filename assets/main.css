@@ -1,0 +1,206 @@
+/*============== Style de base =====================*/
+.body_app{
+  color: #191d3f;
+  width: 100%;
+  height: 100%;
+  background: #f7f6f7;
+  font-family: "Open Sans", sans-serif;
+ }
+
+/*============== menu de gauche =====================*/
+.left_menu{
+  background: #191d3f;
+  width: 15%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 999;
+  padding: 20px
+}
+
+/* Style Logo B&D */
+.logo{
+  width: 100%;
+  padding-bottom: 50px;
+  /* border-bottom: solid 3px #df6036 */ ;
+  display: inline-block;
+  padding-bottom: 5px;
+  marginBottom: 20px;
+}
+
+/* Titre 1 */
+.titre1_menu{
+  color: #f7f6f7;
+  border-bottom: solid 3px #df6036;
+  display: inline-block;
+  margin: 0 0 2em 0;
+  padding: 0 0.75em 0.5em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/* Titre 2 */
+.titre2_menu{
+  color: #f7f6f7;
+  border-bottom: solid 3px #df6036;
+  display: inline-block;
+  padding: 0 0.75em 0.5em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Partie navigation du menu */
+.menu_lien{
+  list-style:none;
+  user-select: none;
+  color: #f7f6f7;
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  padding: 0 0 50px 0;
+  font-size: 0.75em
+}
+
+.menu_lien_boite{
+  border-bottom: 0.075rem solid #df6036;
+  marginBottom: 15px;
+  padding-bottom: 10px;
+}
+
+.menu_lien_text{
+  color: inherit;
+  text-decoration: None;
+  marginBottom: 10px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.menu_lien_text:hover{
+  color: #df6036;
+  background-color: #f7f6f7;
+  font-weight: bold;
+}
+
+/* titre des filtres */
+.titre_filtre_menu{
+  color: #f7f6f7;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-top: 0px;
+}
+
+/*============== Contenu de la partie droite ==============*/
+
+.right_content{
+  background: #f7f6f7;
+  width: 79%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  padding: 40px;
+}
+
+/* titre du dashboard */
+.titre_dashboard{
+  text-align: center;
+  marginBottom: 5px;
+}
+
+.block_titre_dashboard{
+  border-bottom: 0.3rem solid #df6036;
+  font-size: 1em;
+  color: #191d3f;
+  font-weight: bold;
+  marginBottom: 50px;
+}
+
+
+/*============== les sections ==============*/
+
+.section_content{
+  border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+  padding-bottom: 50px;
+  marginBottom: 50px;
+}
+
+.titre_section{
+  color: #191d3f;
+  padding-bottom: 15px;
+}
+
+
+/*============== Conteneur 3 infobox ==============*/
+
+.groupe_3_infobox{
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  marginBottom: 30px;
+}
+
+.infobox_div{
+  background: rgba(255, 255, 255);
+  position: relative;
+  float: left;
+  width: 31%;
+  height: 100px;
+  margin-right: 1%;
+  margin-left: 1%;
+  border: solid 2px rgba(25, 29, 63, 0.75);
+}
+.image_infobox{
+  width: 100%;
+  height: 100%;
+}
+.infobox_image_div{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+.infobox_text_div{
+  position: relative;
+  width: 73%;
+  height: 100%;
+  float: left;
+}
+.text_infobox{
+  font-size: 1.1em;
+  color: #3d4449;
+  font-weight: bold;
+}
+
+
+/*============== Conteneur graphique ==============*/
+.conteneur_graph{
+  background: #f5f6f7;
+  width: 98%;
+  margin-right: 1%;
+  margin-left: 1%;
+  border: solid 2px rgba(25, 29, 63, 0.75);
+}
+
+
+/*============== Conteneur 2 graphiques ==============*/
+
+.conteneur_2_graph{
+  width: 100%;
+  margin-top: 30px;
+  marginBottom: 30px;
+  margin-right: 0.1%;
+  margin-left: 0.2%;
+  position: relative;
+  float: left;
+}
+
+.conteneur_2G_graph{
+  background: rgba(255, 255, 255);
+  position: relative;
+  float: left;
+  width: 47.5%;
+  margin-right: 1%;
+  margin-left: 1%;
+  border: solid 2px rgba(25, 29, 63, 0.75);
+}
+
